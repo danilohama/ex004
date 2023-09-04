@@ -1,0 +1,10 @@
+escreva = input('Digite algo: ')
+
+print('O tipo primitivo desse valor é', type(escreva))
+print('Tem espaços? ', escreva.isspace())
+print('É um numero? ', escreva.isnumeric())
+print('É alfabético?', escreva.isalpha())
+print('É alfanumerico', escreva.isalnum())
+print('Está em maiúsculas?', escreva.isupper())
+print('Está em minúsculas? ', escreva.islower())
+print('Está capitalizadas?', escreva.istitle())
